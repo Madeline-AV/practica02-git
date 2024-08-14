@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formación Virtual | Bienvenid@</title>
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>
+          <img src="images/logo.png" alt="Logo">
+        </h1>
+    </header>
+
+    <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#quienes-somos">¿Quiénes Somos?</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#tarifas">Tarifas</a>
+        <a href="#localizacion">Localización</a>
+    </nav>
+
+    <section id="quienes-somos" class="content who">
+        <h2 class="title">¿Quiénes Somos?</h2>
+        <p>En diciembre del 2016 nacio Formación Virtual y durante estos años hemos demostrado como empresa nuestra resposabilidad y la evolución al cambio.</p>
+        <p>Gracias a nuestros clientes y la perpetua confianza, hemos establecido un fuerte empleño en crear, enseñar y disfrutar esas paginas que tanto deseas. Nos concideramos una empresa que escucha y valora a su cliente, creamos los mejor para ti.</p>
+    </section>
+
+    <section id="servicios" class="content services">
+        <h2 class="title">Servicios</h2>
+        <p>¿Que framework te conviene más? Estamos aqui para ayudarte, disponemos de Angular, React y Vuejs, consulta con nosotros y te diremos que framework necesita tu pagina. Creamos y te enseñamos lo que te conviene.</p>
+        <ul class="list-services">
+          <li>
+            <figure>
+              <img src="images/ico1.png" alt="Angular">
+              <figcaption>Angular</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/ico2.png" alt="React">
+              <figcaption>React</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/ico3.png" alt="Vuejs">
+              <figcaption>Vuejs</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+
+      <section id="tarifas" class="content tarifas">
+        <article class="contain">
+          <h2 class="title">Tarifas</h2>
+          <p>El cliente paga por los diferentes servicios que necesite, entre esos la creacion del sitio web, diseño, mantenimiento u otros, todo dependera de las necesidades del cliente. ¡Cuentanos y te asesoraremos! </p>
+          <p>Tambien disponemos de cursos de programación enfocadas al diseño web con duración de un mes, si estas interesado contactanos, te enviaremos información mas detallada, cupos limitados. </p>
+          <a href="#contacto" class="btn">Contáctanos</a>
+        </article>
+      </section>
+
+      <section id="opiniones" class="content opiniones">
+        <h2 class="title">Opiniones</h2>
+        <div class="opinion-box">
+          <blockquote>
+            <p>"Formación Virtual nos ha mostrado la importancia de confiar y comunicarnos, es un increíble equipo y un excelente sevicio."</p>
+            <cite>- Enrique Lopez, CEO de Empresa EnjoyPro</cite>
+          </blockquote>
+        </div>
+        <div class="opinion-box">
+          <blockquote>
+            <p>"Es una empresa muy dedicada y he aprendido mucho con ellos, llengando a ver que tan profecionales son. ¡Totalmente recomendado!"</p>
+            <cite>- Gladis Claros, CTO de Empresa ZoneElectro</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="localizacion" class="content localization">
+        <h2 class="title">Localización</h2>
+        <p>Puedes encontrarnos en el Boulevard del Hipodralamo y Av. La Capilla. Colonia San Benito, San Salvador, El Salvador.</p>
+        <div id="map"></div>
+        <h3>Formulario de Contacto</h3>
+        <form id="contacto" action="enviar_formulario.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; 2024 Fazt. Todos los derechos reservados.</p>
+        <nav class="footer-nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#quienes-somos">¿Quiénes Somos?</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#tarifas">Tarifas</a>
+          <a href="#localizacion">Localización</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </footer>
+    
+</body>
+</html>
